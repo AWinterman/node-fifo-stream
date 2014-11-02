@@ -4,12 +4,14 @@
   "description": "a streaming fifo",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
   "author": "Andrew <andywinterman@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "xtend": "^4.0.0"
+    "xtend": "^4.0.0",
+    "tape": "^3.0.1",
+    "through": "^2.3.6"
   },
   "devDependencies": {},
   "repository": {
